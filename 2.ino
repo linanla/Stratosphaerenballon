@@ -54,7 +54,7 @@ void setup() {
   bmp180Calibration();
   sensors.begin();
   wdt_enable(WDTO_2S);
-  if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
+  if (!sd.begin(CS_PIN, SD_SCK_MHZ(16))) {
     Serial.println("SD Fehler!");
     sd.initErrorHalt(&Serial);
   }
@@ -80,10 +80,11 @@ void loop() {
   float altitude = calcAltitude(pressure);  //Uncompensated caculation - in Meters
   float temperatureRod = sensors.getTempCByIndex(0);
 
-  if (isnan(humidity) || isnan(temperatureDHT)) {
-    return;
-  }
+  if (isnan(humidity)) humidity = -1;
+  if (isnan(temperatureDHT)) temperatureDHT = -1;
+  wdt_reset();
   file = sd.open("datalog.txt", FILE_WRITE);
+  wdt_reset();
 
   if (!file) {
     Serial.println("Datei konnte nicht geöffnet werden.");
@@ -113,6 +114,7 @@ void loop() {
   file.close();
   wdt_reset();
   delay(5000);
+  wdt_reset();
 }
 
 // Stores all of the bmp180's calibration values into global variables
