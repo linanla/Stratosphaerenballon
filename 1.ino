@@ -86,4 +86,5 @@ void loop() {
     Serial.print("Satellites = ");
     Serial.println(gps.satellites.value());
   }
+  delay(5000);
 }
