@@ -30,7 +30,7 @@ void setup() {
   wdt_enable(WDTO_8S);
   ss.begin(GPSBaud);
 
-  if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
+  if (!sd.begin(CS_PIN, SD_SCK_MHZ(16))) {
     Serial.println("SD Fehler!");
     sd.initErrorHalt(&Serial);
   }
