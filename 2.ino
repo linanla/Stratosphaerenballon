@@ -53,7 +53,7 @@ void setup() {
   Wire.begin();
   bmp180Calibration();
   sensors.begin();
-  wdt_enable(WDTO_2S);
+  wdt_enable(WDTO_8S);
   if (!sd.begin(CS_PIN, SD_SCK_MHZ(16))) {
     Serial.println("SD Fehler!");
     sd.initErrorHalt(&Serial);
