@@ -23,9 +23,9 @@ float uvIndex;
 void setup() {
   Serial.begin(9600);
   wakeSensor(MPU_ADDRESS);  // wakes sensor from sleep mode
-  wdt_enable(WDTO_2S);
+  wdt_enable(WDTO_8S);
 
-  if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
+  if (!sd.begin(CS_PIN, SD_SCK_MHZ(16))) {
     Serial.println("SD Fehler!");
     sd.initErrorHalt(&Serial);
   }
@@ -50,7 +50,9 @@ void loop() {
   analogSignal = analogRead(sensorPin);
   voltage = analogSignal * 5.0 / 1023.0;
   uvIndex = voltage / 0.1;
+  wdt_reset();
   file = sd.open("datalog.txt", FILE_WRITE);
+  wdt_reset();
 
   if (!file) {
     Serial.println("Datei konnte nicht geöffnet werden.");
@@ -82,4 +84,5 @@ void loop() {
   file.close();
   wdt_reset();
   delay(5000);
+  wdt_reset();
 }
