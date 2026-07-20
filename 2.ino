@@ -5,6 +5,7 @@
 #include "DHT.h"
 #include <SPI.h>
 #include <SdFat.h>
+#include <avr/wdt.h>
 #define DHTPIN 2
 #define DHTTYPE DHT22
 #define ONE_WIRE_BUS 3
@@ -52,6 +53,7 @@ void setup() {
   Wire.begin();
   bmp180Calibration();
   sensors.begin();
+  wdt_enable(WDTO_2S);
   if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
     Serial.println("SD Fehler!");
     sd.initErrorHalt(&Serial);
@@ -109,6 +111,7 @@ void loop() {
   file.println(temperatureRod, 2);
 
   file.close();
+  wdt_reset();
   delay(5000);
 }
 
