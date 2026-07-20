@@ -2,6 +2,7 @@
 #include <SoftwareSerial.h>
 #include <SPI.h>
 #include <SdFat.h>
+#include <avr/wdt.h>
 
 static const uint32_t GPSBaud = 9600;
 
@@ -26,6 +27,7 @@ const int CS_PIN = 4;
 
 void setup() {
   Serial.begin(9600);
+  wdt_enable(WDTO_8S);
   ss.begin(GPSBaud);
 
   if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
@@ -86,5 +88,6 @@ void loop() {
     Serial.print("Satellites = ");
     Serial.println(gps.satellites.value());
   }
+  wdt_reset();
   delay(5000);
 }
