@@ -18,7 +18,7 @@ File file;
 unsigned long timestamp = 0;
 double latitude = 0;
 double longitude = 0;
-int satelites = 0;
+int satellites = 0;
 double hdop = 0;
 double kmh = 0;
 double altitude = 0;
@@ -36,7 +36,7 @@ void setup() {
   }
 
   file = sd.open("datalog.txt", FILE_WRITE);
-  file.println("millis|latitude|longitude|satelites|hdop|kmh|altitude");
+  file.println("millis|latitude|longitude|satellites|hdop|kmh|altitude");
   file.close();
 }
 
@@ -46,19 +46,21 @@ void loop() {
   for (unsigned long start = millis(); millis() - start < 1000;) {
     while (ss.available()) {
       char c = ss.read();
-      // Serial.write(c); // uncomment this line if you want to see the GPS data flowing
       if (gps.encode(c))  // Did a new valid sentence come in?
         newData = true;
     }
   }
   if (newData && gps.location.isValid() && gps.satellites.value() > 0) {
+    wdt_reset();
     file = sd.open("datalog.txt", FILE_WRITE);
+    wdt_reset();
+
 
     if (file) {
       timestamp = millis();
       latitude = gps.location.lat();
       longitude = gps.location.lng();
-      satelites = gps.satellites.value();
+      satellites = gps.satellites.value();
       hdop = gps.hdop.hdop();
       kmh = gps.speed.kmph();
       altitude = gps.altitude.meters();
@@ -71,7 +73,7 @@ void loop() {
       file.print(longitude, 6);
       file.print("|");
 
-      file.print(satelites);
+      file.print(satellites);
       file.print("|");
 
       file.print(hdop, 1);
@@ -90,4 +92,5 @@ void loop() {
   }
   wdt_reset();
   delay(5000);
+  wdt_reset();
 }
