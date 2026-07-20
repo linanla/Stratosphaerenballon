@@ -15,12 +15,12 @@ SdFat sd;
 File file;
 
 unsigned long timestamp = 0;
-long latitude = 0;
-long longitude = 0;
+double latitude = 0;
+double longitude = 0;
 int satelites = 0;
-int hdop = 0;
-int kmh = 0;
-int altitude = 0;
+double hdop = 0;
+double kmh = 0;
+double altitude = 0;
 
 const int CS_PIN = 4;
 
@@ -35,6 +35,7 @@ void setup() {
 
   file = sd.open("datalog.txt", FILE_WRITE);
   file.println("millis|latitude|longitude|satelites|hdop|kmh|altitude");
+  file.close();
 }
 
 void loop() {
@@ -48,33 +49,38 @@ void loop() {
         newData = true;
     }
   }
-  if (newData && gps.location.isValid() && gps.satellites.value() > 0 && file) {
-    file.print(timestamp);
-    file.print("|");
+  if (newData && gps.location.isValid() && gps.satellites.value() > 0) {
+    file = sd.open("datalog.txt", FILE_WRITE);
 
-    file.print(latitude, 6);
-    file.print("|");
+    if (file) {
+      timestamp = millis();
+      latitude = gps.location.lat();
+      longitude = gps.location.lng();
+      satelites = gps.satellites.value();
+      hdop = gps.hdop.hdop();
+      kmh = gps.speed.kmph();
+      altitude = gps.altitude.meters();
+      file.print(timestamp);
+      file.print("|");
 
-    file.print(longitude, 6);
-    file.print("|");
+      file.print(latitude, 6);
+      file.print("|");
 
-    file.print(satelites);
-    file.print("|");
+      file.print(longitude, 6);
+      file.print("|");
 
-    file.print(hdop);
-    file.print("|");
+      file.print(satelites);
+      file.print("|");
 
-    file.print(kmh);
-    file.print("|");
+      file.print(hdop, 1);
+      file.print("|");
 
-    file.println(altitude);
-    timestamp = millis();
-    latitude = gps.location.lat();
-    longitude = gps.location.lng();
-    satelites = gps.satellites.value();
-    hdop = gps.hdop.hdop();
-    kmh = gps.speed.kmph();
-    altitude = gps.altitude.meters();
+      file.print(kmh, 2);
+      file.print("|");
+
+      file.println(altitude, 2);
+      file.close();
+    }
   } else {
     Serial.println("Kein GPS Fix");
     Serial.print("Satellites = ");
