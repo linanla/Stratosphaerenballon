@@ -1,6 +1,7 @@
 #include <mpu6050.h>
 #include <SPI.h>
 #include <SdFat.h>
+#include <avr/wdt.h>
 
 #define MPU_ADDRESS 0x68  //  mpu6050 address is 0x69 if AD0 pin is powered -  otherwise it's 0x68
 
@@ -22,6 +23,7 @@ float uvIndex;
 void setup() {
   Serial.begin(9600);
   wakeSensor(MPU_ADDRESS);  // wakes sensor from sleep mode
+  wdt_enable(WDTO_2S);
 
   if (!sd.begin(CS_PIN, SD_SCK_MHZ(1))) {
     Serial.println("SD Fehler!");
@@ -78,5 +80,6 @@ void loop() {
   file.println(uvIndex, 2);
 
   file.close();
+  wdt_reset();
   delay(5000);
 }
