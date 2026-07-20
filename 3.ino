@@ -78,4 +78,5 @@ void loop() {
   file.println(uvIndex, 2);
 
   file.close();
+  delay(5000);
 }
