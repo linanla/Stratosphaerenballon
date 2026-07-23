@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import * as Cesium from "cesium";
 
+Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkYmJmM2EyYy1kMzY5LTQyODMtOTQ0OS0wNDIyZmQ0NzNiNDEiLCJpZCI6NDU5NjQyLCJzdWIiOiJsaW5hbmxhIiwiaXNzIjoiaHR0cHM6Ly9hcGkuY2VzaXVtLmNvbSIsImF1ZCI6IlVudGl0bGVkIiwiaWF0IjoxNzg0ODE5MjM5fQ.kFxpOjEriUBjLKqcfyR3oARYJ4mW4DQkR8683ksaYak";
 export default function Globe({ index, gpsData }) {
 	const containerRef = useRef(null);
 	const viewerRef = useRef(null);
@@ -74,10 +75,5 @@ export default function Globe({ index, gpsData }) {
 		);
 	}, [index, gpsData]);
 
-	return (
-		<div
-			ref={containerRef}
-			className="w-full h-96"
-		/>
-	);
+	return <div ref={containerRef} className="w-full h-96" />;
 }
