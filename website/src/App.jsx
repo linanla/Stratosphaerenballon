@@ -12,15 +12,17 @@ export default function App() {
 
 	useEffect(() => {
 		async function loadData() {
-			let res = await fetch("/data/GPS_datalog.json").then((r) =>
-				r.json(),
-			);
+			let res = await fetch(
+				`${import.meta.env.BASE_URL}data/GPS_datalog.json`,
+			).then((r) => r.json());
 			setGpsData(res);
-			res = await fetch("/data/Gyro_datalog.json").then((r) => r.json());
+			res = await fetch(
+				`${import.meta.env.BASE_URL}data/Gyro_datalog.json`,
+			).then((r) => r.json());
 			setGyroData(res);
-			res = await fetch("/data/Temperature_Pressure_datalog.json").then(
-				(r) => r.json(),
-			);
+			res = await fetch(
+				`${import.meta.env.BASE_URL}data/Temperature_Pressure_datalog.json`,
+			).then((r) => r.json());
 			setTemperatureData(res);
 		}
 		loadData();
