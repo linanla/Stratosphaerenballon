@@ -1,7 +1,7 @@
 export default function Timeline({ max, index, setIndex }) {
 
 	return (
-		<div className="sticky p-4 text-white flex flex-col items-center gap-4 text-2xl">
+		<div className="fixed top-0 left-0 z-50 p-4 text-white flex flex-col items-center gap-4 text-2xl w-full">
 			<input
 				type="range"
 				min="0"

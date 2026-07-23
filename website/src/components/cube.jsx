@@ -85,5 +85,5 @@ export default function Cube({ point }) {
 		cubeRef.current.rotation.set(pitch, 0, roll);
 	}, [point?.pitch, point?.roll]);
 
-	return <div ref={containerRef} />;
+	return <div ref={containerRef} className="pt-24" />;
 }

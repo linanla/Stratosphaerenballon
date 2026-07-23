@@ -75,5 +75,5 @@ export default function Globe({ index, gpsData }) {
 		);
 	}, [index, gpsData]);
 
-	return <div ref={containerRef} className="w-full h-96" />;
+	return <div ref={containerRef} className="pt-24 grow" />;
 }

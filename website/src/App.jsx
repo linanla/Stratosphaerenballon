@@ -31,24 +31,30 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="bg-gray-900 h-dvh flex flex-col gap-4 overflow-y-auto overflow-x-hidden">
-			<div>
-        <Timeline
-          max={gpsData[gpsData.length - 1].millis}
-          index={index}
-          setIndex={setIndex}
-        />
-        <Globe gpsData={gpsData} index={index} />
-      </div>
-      <div className="flex flex-row">
-        <Cube point={gyroData.find((element) => element.millis == index)} />
-        <Data
-          index={index}
-          gpsData={gpsData}
-          gyroData={gyroData}
-          temperatureData={temperatureData}
-        />
-      </div>
+		<div className="bg-gray-900 h-dvh overflow-y-auto overflow-x-hidden">
+			<Timeline
+				max={gpsData[gpsData.length - 1].millis}
+				index={index}
+				setIndex={setIndex}
+			/>
+			<div className="flex flex-col gap-4">
+				<div className="flex flex-row gap-4 h-123.75">
+					<Globe gpsData={gpsData} index={index} />
+					<Cube
+						point={gyroData.find(
+							(element) => element.millis == index,
+						)}
+					/>
+				</div>
+				<div className="flex flex-row">
+					<Data
+						index={index}
+						gpsData={gpsData}
+						gyroData={gyroData}
+						temperatureData={temperatureData}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }
