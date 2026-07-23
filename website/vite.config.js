@@ -6,4 +6,7 @@ import cesium from "vite-plugin-cesium";
 export default defineConfig({
 	plugins: [react(), tailwindcss(), cesium()],
 	base: "/Stratosphaerenballon/",
+	cesium: {
+		assetPath: "cesium",
+	},
 });
