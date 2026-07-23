@@ -38,7 +38,7 @@ export default function App() {
 				setIndex={setIndex}
 			/>
 			<div className="flex flex-col gap-4">
-				<div className="flex flex-row gap-4 h-123.75 pt-4">
+				<div className="flex flex-row gap-4 h-128 pt-4">
 					<Globe gpsData={gpsData} index={index} />
 					<Cube
 						point={gyroData.find(
