@@ -24,7 +24,7 @@ export default function Data({ index, gpsData, gyroData, temperatureData }) {
 						).toFixed(2) ?? "-"}
 					</p>
 				</div>
-				<div className="w-72">
+				<div className="w-96">
 					<p>
 						Außentemperatur:&nbsp;&nbsp;
 						{temperaturePoint?.temperatureRod ?? "-"} °C
