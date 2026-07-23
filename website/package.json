@@ -3,8 +3,11 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"homepage": "https://linanla.github.io/Stratosphaerenballon/",
 	"scripts": {
 		"dev": "vite",
+		"deploy": "gh-pages -d build",
+		"predeploy": "npm run build",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
