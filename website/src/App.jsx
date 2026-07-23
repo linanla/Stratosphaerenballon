@@ -31,7 +31,7 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="bg-gray-900 h-dvh flex flex-col gap-4">
+		<div className="bg-gray-900 h-dvh flex flex-col gap-4 overflow-auto">
 			<div>
         <Timeline
           max={gpsData[gpsData.length - 1].millis}
