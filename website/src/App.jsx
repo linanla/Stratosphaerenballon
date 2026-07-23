@@ -31,14 +31,14 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="bg-gray-900 h-dvh overflow-y-auto overflow-x-hidden">
+		<div className="bg-gray-800 h-dvh overflow-y-auto overflow-x-hidden">
 			<Timeline
 				max={gpsData[gpsData.length - 1].millis}
 				index={index}
 				setIndex={setIndex}
 			/>
 			<div className="flex flex-col gap-4">
-				<div className="flex flex-row gap-4 h-123.75">
+				<div className="flex flex-row gap-4 h-123.75 pt-4">
 					<Globe gpsData={gpsData} index={index} />
 					<Cube
 						point={gyroData.find(

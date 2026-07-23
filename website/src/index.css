@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@layer components {
+	.slider {
+		-webkit-appearance: none;
+	}
+	.slider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 37px;
+		height: 37px;
+		margin-top: 5px;
+		background-color: white;
+		background: url("/images/satellite.svg") center center / contain
+			no-repeat;
+	}
+	.slider::-moz-range-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 37px;
+		height: 37px;
+		margin-top: 5px;
+		background-color: white;
+		background: url("/images/satellite.svg") center center / contain
+			no-repeat;
+	}
+	.slider::-webkit-slider-runnable-track {
+		background: #b3afaf;
+		background: linear-gradient(
+			90deg,
+			rgba(179, 175, 175, 1) 0%,
+			rgba(74, 74, 74, 1) 39%,
+			rgba(36, 33, 33, 1) 67%,
+			rgba(0, 0, 0, 1) 100%
+		);
+		border-radius: 9999px;
+		height: 40px;
+	}
+}
