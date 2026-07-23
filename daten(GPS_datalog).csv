@@ -1,5 +1,5 @@
 ﻿Sekunden;"
-Breitengrad";Längengrad;Sateliten;HDOP;km/h;Höhe
+latitude";longitude;Sateliten;HDOP;km/h;altitude
 0;48.413.516;9.071.516;5;2,8;0,3;481,9
 5;48.413.524;9.071.528;5;2,8;0,93;480,4
 15;48.413.524;9.071.526;5;2,8;0,61;479,1
