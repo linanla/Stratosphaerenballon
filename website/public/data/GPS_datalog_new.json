@@ -1,0 +1,2264 @@
+[
+	{
+		"millis": 760,
+		"latitude": 48.41355,
+		"longitude": 9.07149,
+		"altitude": 485
+	},
+	{
+		"millis": 1035,
+		"latitude": 48.41346,
+		"longitude": 9.07155,
+		"altitude": 491
+	},
+	{
+		"millis": 1335,
+		"latitude": 48.41499,
+		"longitude": 9.0786,
+		"altitude": 1433
+	},
+	{
+		"millis": 1635,
+		"latitude": 48.40648,
+		"longitude": 9.08766,
+		"altitude": 2309
+	},
+	{
+		"millis": 1845,
+		"latitude": 48.38725,
+		"longitude": 9.09681,
+		"altitude": 3644
+	},
+	{
+		"millis": 2150,
+		"latitude": 48.36234,
+		"longitude": 9.12585,
+		"altitude": 5000
+	},
+	{
+		"millis": 2450,
+		"latitude": 48.33831,
+		"longitude": 9.16901,
+		"altitude": 6659
+	},
+	{
+		"millis": 2750,
+		"latitude": 48.31199,
+		"longitude": 9.2195,
+		"altitude": 7457
+	},
+	{
+		"millis": 3050,
+		"latitude": 48.28568,
+		"longitude": 9.26859,
+		"altitude": 8673
+	},
+	{
+		"millis": 3380,
+		"latitude": 48.25236,
+		"longitude": 9.32569,
+		"altitude": 9890
+	},
+	{
+		"millis": 3645,
+		"latitude": 48.2212,
+		"longitude": 9.36487,
+		"altitude": 11106
+	},
+	{
+		"millis": 3940,
+		"latitude": 48.18511,
+		"longitude": 9.42099,
+		"altitude": 12091
+	},
+	{
+		"millis": 4250,
+		"latitude": 48.14737,
+		"longitude": 9.48841,
+		"altitude": 12958
+	},
+	{
+		"millis": 4575,
+		"latitude": 48.11545,
+		"longitude": 9.5664,
+		"altitude": 14022
+	},
+	{
+		"millis": 4845,
+		"latitude": 48.09832,
+		"longitude": 9.62506,
+		"altitude": 14904
+	},
+	{
+		"millis": 5140,
+		"latitude": 48.08039,
+		"longitude": 9.67662,
+		"altitude": 15943
+	},
+	{
+		"millis": 5440,
+		"latitude": 48.0718,
+		"longitude": 9.72676,
+		"altitude": 16945
+	},
+	{
+		"millis": 5745,
+		"latitude": 48.05946,
+		"longitude": 9.76727,
+		"altitude": 18031
+	},
+	{
+		"millis": 6040,
+		"latitude": 48.0495,
+		"longitude": 9.7865,
+		"altitude": 19104
+	},
+	{
+		"millis": 6340,
+		"latitude": 48.05204,
+		"longitude": 9.79865,
+		"altitude": 19890
+	},
+	{
+		"millis": 6640,
+		"latitude": 48.05233,
+		"longitude": 9.795,
+		"altitude": 21020
+	},
+	{
+		"millis": 6940,
+		"latitude": 48.05074,
+		"longitude": 9.78679,
+		"altitude": 22157
+	},
+	{
+		"millis": 7240,
+		"latitude": 48.04605,
+		"longitude": 9.7697,
+		"altitude": 23327
+	},
+	{
+		"millis": 7535,
+		"latitude": 48.04427,
+		"longitude": 9.7387,
+		"altitude": 24542
+	},
+	{
+		"millis": 7840,
+		"latitude": 48.04588,
+		"longitude": 9.71344,
+		"altitude": 25700
+	},
+	{
+		"millis": 8165,
+		"latitude": 48.04359,
+		"longitude": 9.67104,
+		"altitude": 27071
+	},
+	{
+		"millis": 8435,
+		"latitude": 48.0443,
+		"longitude": 9.62383,
+		"altitude": 28118
+	},
+	{
+		"millis": 8735,
+		"latitude": 48.04935,
+		"longitude": 9.57557,
+		"altitude": 29348
+	},
+	{
+		"millis": 9020,
+		"latitude": 48.05629,
+		"longitude": 9.52813,
+		"altitude": 30492
+	},
+	{
+		"millis": 9335,
+		"latitude": 48.06173,
+		"longitude": 9.4623,
+		"altitude": 31696
+	},
+	{
+		"millis": 9635,
+		"latitude": 48.06897,
+		"longitude": 9.39969,
+		"altitude": 32815
+	},
+	{
+		"millis": 9935,
+		"latitude": 48.07604,
+		"longitude": 9.342,
+		"altitude": 33760
+	},
+	{
+		"millis": 10235,
+		"latitude": 48.08631,
+		"longitude": 9.27441,
+		"altitude": 34630
+	},
+	{
+		"millis": 10535,
+		"latitude": 48.08163,
+		"longitude": 9.25802,
+		"altitude": 100000
+	},
+	{
+		"millis": 10835,
+		"latitude": 48.05368,
+		"longitude": 9.32595,
+		"altitude": 100000
+	},
+	{
+		"millis": 11125,
+		"latitude": 48.062679,
+		"longitude": 9.31065,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 104.19,
+		"altitude": 12041.8
+	},
+	{
+		"millis": 11130,
+		"latitude": 48.061977,
+		"longitude": 9.311936,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 90.84,
+		"altitude": 11965.3
+	},
+	{
+		"millis": 11140,
+		"latitude": 48.061336,
+		"longitude": 9.313308,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 75.06,
+		"altitude": 11890.2
+	},
+	{
+		"millis": 11145,
+		"latitude": 48.060676,
+		"longitude": 9.314744,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 55.82,
+		"altitude": 11817
+	},
+	{
+		"millis": 11150,
+		"latitude": 48.059963,
+		"longitude": 9.316159,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 55.82,
+		"altitude": 11744.4
+	},
+	{
+		"millis": 11155,
+		"latitude": 48.059116,
+		"longitude": 9.317517,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 52.99,
+		"altitude": 11744.4
+	},
+	{
+		"millis": 11160,
+		"latitude": 48.058311,
+		"longitude": 9.31878,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 48.63,
+		"altitude": 11589.5
+	},
+	{
+		"millis": 11170,
+		"latitude": 48.057628,
+		"longitude": 9.319997,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 71.3,
+		"altitude": 11518.1
+	},
+	{
+		"millis": 11175,
+		"latitude": 48.056903,
+		"longitude": 9.321023,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 97.42,
+		"altitude": 11449.6
+	},
+	{
+		"millis": 11180,
+		"latitude": 48.056194,
+		"longitude": 9.322083,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 99.3,
+		"altitude": 11379.5
+	},
+	{
+		"millis": 11185,
+		"latitude": 48.0554,
+		"longitude": 9.323393,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 61.63,
+		"altitude": 11310.9
+	},
+	{
+		"millis": 11190,
+		"latitude": 48.05458,
+		"longitude": 9.32462,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 44.91,
+		"altitude": 11241.3
+	},
+	{
+		"millis": 11200,
+		"latitude": 48.053752,
+		"longitude": 9.325611,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 88.56,
+		"altitude": 11174.4
+	},
+	{
+		"millis": 11205,
+		"latitude": 48.053112,
+		"longitude": 9.326552,
+		"satellites": 10,
+		"hdop": 1.1,
+		"kmh": 95.66,
+		"altitude": 11106.8
+	},
+	{
+		"millis": 11210,
+		"latitude": 48.052433,
+		"longitude": 9.327658,
+		"satellites": 10,
+		"hdop": 0.9,
+		"kmh": 71.73,
+		"altitude": 11037.5
+	},
+	{
+		"millis": 11215,
+		"latitude": 48.051651,
+		"longitude": 9.328727,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 37.35,
+		"altitude": 10969
+	},
+	{
+		"millis": 11220,
+		"latitude": 48.050716,
+		"longitude": 9.329732,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 64.51,
+		"altitude": 10902.1
+	},
+	{
+		"millis": 11230,
+		"latitude": 48.049869,
+		"longitude": 9.330512,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 94.49,
+		"altitude": 10835.6
+	},
+	{
+		"millis": 11235,
+		"latitude": 48.049137,
+		"longitude": 9.331343,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 90.43,
+		"altitude": 10769.2
+	},
+	{
+		"millis": 11240,
+		"latitude": 48.048385,
+		"longitude": 9.33235,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 49.8,
+		"altitude": 10705.8
+	},
+	{
+		"millis": 11245,
+		"latitude": 48.047473,
+		"longitude": 9.333386,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 53.84,
+		"altitude": 10640.9
+	},
+	{
+		"millis": 11250,
+		"latitude": 48.046566,
+		"longitude": 9.334195,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 92.27,
+		"altitude": 10575.8
+	},
+	{
+		"millis": 11260,
+		"latitude": 48.045806,
+		"longitude": 9.334949,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 89.64,
+		"altitude": 10511.8
+	},
+	{
+		"millis": 11265,
+		"latitude": 48.045131,
+		"longitude": 9.336034,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 50.78,
+		"altitude": 10449.3
+	},
+	{
+		"millis": 11270,
+		"latitude": 48.044193,
+		"longitude": 9.337292,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 38.69,
+		"altitude": 10386.3
+	},
+	{
+		"millis": 11275,
+		"latitude": 48.043323,
+		"longitude": 9.338341,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 67.21,
+		"altitude": 10310.6
+	},
+	{
+		"millis": 11285,
+		"latitude": 48.042465,
+		"longitude": 9.339292,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 100.29,
+		"altitude": 10248.1
+	},
+	{
+		"millis": 11290,
+		"latitude": 48.041687,
+		"longitude": 9.340231,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 97.54,
+		"altitude": 10184.4
+	},
+	{
+		"millis": 11295,
+		"latitude": 48.040901,
+		"longitude": 9.341367,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 64.08,
+		"altitude": 10123.6
+	},
+	{
+		"millis": 11300,
+		"latitude": 48.039913,
+		"longitude": 9.342541,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 55.52,
+		"altitude": 10060.5
+	},
+	{
+		"millis": 11305,
+		"latitude": 48.038887,
+		"longitude": 9.343439,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 85.84,
+		"altitude": 9998
+	},
+	{
+		"millis": 11315,
+		"latitude": 48.038021,
+		"longitude": 9.344249,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 99.32,
+		"altitude": 9936.3
+	},
+	{
+		"millis": 11320,
+		"latitude": 48.037258,
+		"longitude": 9.345188,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 71.97,
+		"altitude": 9876.4
+	},
+	{
+		"millis": 11325,
+		"latitude": 48.036449,
+		"longitude": 9.346217,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 35.67,
+		"altitude": 9816.1
+	},
+	{
+		"millis": 11330,
+		"latitude": 48.035648,
+		"longitude": 9.347142,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 62.13,
+		"altitude": 9753.5
+	},
+	{
+		"millis": 11335,
+		"latitude": 48.034912,
+		"longitude": 9.347978,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 87.62,
+		"altitude": 9692.2
+	},
+	{
+		"millis": 11345,
+		"latitude": 48.034358,
+		"longitude": 9.34891,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 82.88,
+		"altitude": 9632.1
+	},
+	{
+		"millis": 11350,
+		"latitude": 48.033817,
+		"longitude": 9.350131,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 47.11,
+		"altitude": 9570.8
+	},
+	{
+		"millis": 11355,
+		"latitude": 48.03313,
+		"longitude": 9.351424,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 50.8,
+		"altitude": 9509.6
+	},
+	{
+		"millis": 11360,
+		"latitude": 48.032402,
+		"longitude": 9.352561,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 90.62,
+		"altitude": 9450.1
+	},
+	{
+		"millis": 11365,
+		"latitude": 48.031764,
+		"longitude": 9.353656,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 97.27,
+		"altitude": 9390.5
+	},
+	{
+		"millis": 11375,
+		"latitude": 48.031272,
+		"longitude": 9.354978,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 59.56,
+		"altitude": 9332.1
+	},
+	{
+		"millis": 11380,
+		"latitude": 48.030635,
+		"longitude": 9.356457,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 52.24,
+		"altitude": 9274.2
+	},
+	{
+		"millis": 11385,
+		"latitude": 48.02993,
+		"longitude": 9.35768,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 94.29,
+		"altitude": 9217.7
+	},
+	{
+		"millis": 11390,
+		"latitude": 48.029239,
+		"longitude": 9.359107,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 96.1,
+		"altitude": 9161.7
+	},
+	{
+		"millis": 11395,
+		"latitude": 48.028724,
+		"longitude": 9.360404,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 66.34,
+		"altitude": 9095.4
+	},
+	{
+		"millis": 11405,
+		"latitude": 48.028144,
+		"longitude": 9.361916,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 47.82,
+		"altitude": 9039.1
+	},
+	{
+		"millis": 11410,
+		"latitude": 48.027465,
+		"longitude": 9.363206,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 84.77,
+		"altitude": 8981.7
+	},
+	{
+		"millis": 11415,
+		"latitude": 48.026947,
+		"longitude": 9.364294,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 93.47,
+		"altitude": 8927.1
+	},
+	{
+		"millis": 11420,
+		"latitude": 48.026405,
+		"longitude": 9.365661,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 58.95,
+		"altitude": 8870.6
+	},
+	{
+		"millis": 11425,
+		"latitude": 48.025733,
+		"longitude": 9.367073,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 52.5,
+		"altitude": 8815.1
+	},
+	{
+		"millis": 11435,
+		"latitude": 48.024993,
+		"longitude": 9.368248,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 96.08,
+		"altitude": 8760.1
+	},
+	{
+		"millis": 11440,
+		"latitude": 48.024532,
+		"longitude": 9.369423,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 68.28,
+		"altitude": 8708.2
+	},
+	{
+		"millis": 11445,
+		"latitude": 48.02386,
+		"longitude": 9.370895,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 54.54,
+		"altitude": 8655.2
+	},
+	{
+		"millis": 11450,
+		"latitude": 48.023162,
+		"longitude": 9.371919,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 91.88,
+		"altitude": 8602.2
+	},
+	{
+		"millis": 11455,
+		"latitude": 48.022663,
+		"longitude": 9.372994,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 68.15,
+		"altitude": 8549
+	},
+	{
+		"millis": 11465,
+		"latitude": 48.021919,
+		"longitude": 9.374432,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 62.26,
+		"altitude": 8499.6
+	},
+	{
+		"millis": 11470,
+		"latitude": 48.021259,
+		"longitude": 9.375352,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 89.75,
+		"altitude": 8446.3
+	},
+	{
+		"millis": 11475,
+		"latitude": 48.020751,
+		"longitude": 9.376413,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 70.34,
+		"altitude": 8391.8
+	},
+	{
+		"millis": 11480,
+		"latitude": 48.020153,
+		"longitude": 9.377643,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 39.69,
+		"altitude": 8336.1
+	},
+	{
+		"millis": 11485,
+		"latitude": 48.019363,
+		"longitude": 9.378812,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 64.99,
+		"altitude": 8280.2
+	},
+	{
+		"millis": 11495,
+		"latitude": 48.018718,
+		"longitude": 9.379602,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 87.32,
+		"altitude": 8229.5
+	},
+	{
+		"millis": 11500,
+		"latitude": 48.018291,
+		"longitude": 9.380867,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 45.36,
+		"altitude": 8177.9
+	},
+	{
+		"millis": 11505,
+		"latitude": 48.017551,
+		"longitude": 9.382144,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 62.62,
+		"altitude": 8129.1
+	},
+	{
+		"millis": 11510,
+		"latitude": 48.016712,
+		"longitude": 9.383305,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 79.84,
+		"altitude": 8129.1
+	},
+	{
+		"millis": 11520,
+		"latitude": 48.016231,
+		"longitude": 9.38415,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 73.39,
+		"altitude": 8016.4
+	},
+	{
+		"millis": 11525,
+		"latitude": 48.01567,
+		"longitude": 9.385373,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 35.52,
+		"altitude": 7963.9
+	},
+	{
+		"millis": 11530,
+		"latitude": 48.014881,
+		"longitude": 9.386349,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 78.9,
+		"altitude": 7912.3
+	},
+	{
+		"millis": 11535,
+		"latitude": 48.014354,
+		"longitude": 9.387136,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 77.21,
+		"altitude": 7860.5
+	},
+	{
+		"millis": 11540,
+		"latitude": 48.013721,
+		"longitude": 9.388464,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 45.82,
+		"altitude": 7814.2
+	},
+	{
+		"millis": 11550,
+		"latitude": 48.013175,
+		"longitude": 9.389101,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 71.82,
+		"altitude": 7774
+	},
+	{
+		"millis": 11555,
+		"latitude": 48.012535,
+		"longitude": 9.390261,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 50.95,
+		"altitude": 7728.7
+	},
+	{
+		"millis": 11560,
+		"latitude": 48.011947,
+		"longitude": 9.391351,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 74.06,
+		"altitude": 7674.7
+	},
+	{
+		"millis": 11565,
+		"latitude": 48.011383,
+		"longitude": 9.392482,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 83.4,
+		"altitude": 7619.2
+	},
+	{
+		"millis": 11570,
+		"latitude": 48.010826,
+		"longitude": 9.393708,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 86.99,
+		"altitude": 7563.8
+	},
+	{
+		"millis": 11580,
+		"latitude": 48.010284,
+		"longitude": 9.394961,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 81.69,
+		"altitude": 7508
+	},
+	{
+		"millis": 11585,
+		"latitude": 48.009738,
+		"longitude": 9.39616,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 72.78,
+		"altitude": 7453.1
+	},
+	{
+		"millis": 11590,
+		"latitude": 48.009208,
+		"longitude": 9.397311,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 58.15,
+		"altitude": 7398.2
+	},
+	{
+		"millis": 11595,
+		"latitude": 48.008728,
+		"longitude": 9.398426,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 42.1,
+		"altitude": 7344.6
+	},
+	{
+		"millis": 11600,
+		"latitude": 48.008205,
+		"longitude": 9.399537,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 45.15,
+		"altitude": 7290.1
+	},
+	{
+		"millis": 11610,
+		"latitude": 48.007698,
+		"longitude": 9.400662,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 51.76,
+		"altitude": 7233.7
+	},
+	{
+		"millis": 11615,
+		"latitude": 48.007202,
+		"longitude": 9.401753,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 61,
+		"altitude": 7179.8
+	},
+	{
+		"millis": 11620,
+		"latitude": 48.00669,
+		"longitude": 9.402844,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.49,
+		"altitude": 7125.3
+	},
+	{
+		"millis": 11625,
+		"latitude": 48.006187,
+		"longitude": 9.404022,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.49,
+		"altitude": 7072.3
+	},
+	{
+		"millis": 11630,
+		"latitude": 48.005641,
+		"longitude": 9.405409,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 53.5,
+		"altitude": 7072.3
+	},
+	{
+		"millis": 11640,
+		"latitude": 48.005172,
+		"longitude": 9.406531,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 44.21,
+		"altitude": 6956.6
+	},
+	{
+		"millis": 11645,
+		"latitude": 48.004695,
+		"longitude": 9.407666,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 41.37,
+		"altitude": 6902.5
+	},
+	{
+		"millis": 11650,
+		"latitude": 48.004215,
+		"longitude": 9.40889,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 42.74,
+		"altitude": 6847.4
+	},
+	{
+		"millis": 11655,
+		"latitude": 48.00378,
+		"longitude": 9.410087,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 45.56,
+		"altitude": 6791.3
+	},
+	{
+		"millis": 11665,
+		"latitude": 48.003276,
+		"longitude": 9.411236,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 57.8,
+		"altitude": 6736.2
+	},
+	{
+		"millis": 11670,
+		"latitude": 48.00278,
+		"longitude": 9.412402,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 55.06,
+		"altitude": 6682.5
+	},
+	{
+		"millis": 11675,
+		"latitude": 48.002304,
+		"longitude": 9.413504,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 64.12,
+		"altitude": 6628.8
+	},
+	{
+		"millis": 11680,
+		"latitude": 48.001773,
+		"longitude": 9.414666,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 65.1,
+		"altitude": 6574.4
+	},
+	{
+		"millis": 11685,
+		"latitude": 48.001228,
+		"longitude": 9.415752,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 71.84,
+		"altitude": 6521.1
+	},
+	{
+		"millis": 11695,
+		"latitude": 48.000701,
+		"longitude": 9.41688,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 77.73,
+		"altitude": 6466.3
+	},
+	{
+		"millis": 11700,
+		"latitude": 48.000148,
+		"longitude": 9.417948,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.73,
+		"altitude": 6413.2
+	},
+	{
+		"millis": 11705,
+		"latitude": 47.99961,
+		"longitude": 9.419037,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 67.73,
+		"altitude": 6359.4
+	},
+	{
+		"millis": 11710,
+		"latitude": 47.999011,
+		"longitude": 9.420128,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 74.84,
+		"altitude": 6304.6
+	},
+	{
+		"millis": 11715,
+		"latitude": 47.998451,
+		"longitude": 9.42106,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 78.27,
+		"altitude": 6252.2
+	},
+	{
+		"millis": 11725,
+		"latitude": 47.997898,
+		"longitude": 9.422075,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.02,
+		"altitude": 6199.3
+	},
+	{
+		"millis": 11730,
+		"latitude": 47.997341,
+		"longitude": 9.423148,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 78.12,
+		"altitude": 6144.9
+	},
+	{
+		"millis": 11735,
+		"latitude": 47.996833,
+		"longitude": 9.42419,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 77.64,
+		"altitude": 6092
+	},
+	{
+		"millis": 11740,
+		"latitude": 47.99633,
+		"longitude": 9.425177,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.71,
+		"altitude": 6036.3
+	},
+	{
+		"millis": 11745,
+		"latitude": 47.995819,
+		"longitude": 9.426216,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 66.19,
+		"altitude": 5984.3
+	},
+	{
+		"millis": 11755,
+		"latitude": 47.995193,
+		"longitude": 9.427402,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 77.54,
+		"altitude": 5984.3
+	},
+	{
+		"millis": 11760,
+		"latitude": 47.99467,
+		"longitude": 9.428388,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 78.77,
+		"altitude": 5868.5
+	},
+	{
+		"millis": 11765,
+		"latitude": 47.994155,
+		"longitude": 9.429347,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.86,
+		"altitude": 5815.2
+	},
+	{
+		"millis": 11770,
+		"latitude": 47.993656,
+		"longitude": 9.430374,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 75.41,
+		"altitude": 5762.6
+	},
+	{
+		"millis": 11775,
+		"latitude": 47.99316,
+		"longitude": 9.431341,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 77.77,
+		"altitude": 5710.2
+	},
+	{
+		"millis": 11785,
+		"latitude": 47.992717,
+		"longitude": 9.432302,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 76.02,
+		"altitude": 5658.5
+	},
+	{
+		"millis": 11790,
+		"latitude": 47.992233,
+		"longitude": 9.433264,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 75.47,
+		"altitude": 5605.7
+	},
+	{
+		"millis": 11795,
+		"latitude": 47.991786,
+		"longitude": 9.434204,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 61.8,
+		"altitude": 5556.6
+	},
+	{
+		"millis": 11800,
+		"latitude": 47.991333,
+		"longitude": 9.435096,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 55.17,
+		"altitude": 5505.7
+	},
+	{
+		"millis": 11805,
+		"latitude": 47.990875,
+		"longitude": 9.436033,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 57.89,
+		"altitude": 5454.7
+	},
+	{
+		"millis": 11815,
+		"latitude": 47.990413,
+		"longitude": 9.437017,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 51.69,
+		"altitude": 5405.3
+	},
+	{
+		"millis": 11820,
+		"latitude": 47.98999,
+		"longitude": 9.437948,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 47.61,
+		"altitude": 5354.8
+	},
+	{
+		"millis": 11825,
+		"latitude": 47.989585,
+		"longitude": 9.438827,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 45.11,
+		"altitude": 5304
+	},
+	{
+		"millis": 11830,
+		"latitude": 47.989196,
+		"longitude": 9.439701,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 37.21,
+		"altitude": 5255.7
+	},
+	{
+		"millis": 11835,
+		"latitude": 47.988773,
+		"longitude": 9.440551,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 36.15,
+		"altitude": 5205.6
+	},
+	{
+		"millis": 11845,
+		"latitude": 47.988384,
+		"longitude": 9.441429,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 35.23,
+		"altitude": 5158.5
+	},
+	{
+		"millis": 11850,
+		"latitude": 47.987968,
+		"longitude": 9.442351,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 37.5,
+		"altitude": 5108.9
+	},
+	{
+		"millis": 11855,
+		"latitude": 47.987575,
+		"longitude": 9.443282,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 25.13,
+		"altitude": 5062.5
+	},
+	{
+		"millis": 11860,
+		"latitude": 47.987117,
+		"longitude": 9.444106,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 23.43,
+		"altitude": 5013.5
+	},
+	{
+		"millis": 11865,
+		"latitude": 47.986759,
+		"longitude": 9.444974,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 23.43,
+		"altitude": 4966.4
+	},
+	{
+		"millis": 11875,
+		"latitude": 47.986389,
+		"longitude": 9.44595,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 26.04,
+		"altitude": 4966.4
+	},
+	{
+		"millis": 11880,
+		"latitude": 47.985954,
+		"longitude": 9.446831,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 24.89,
+		"altitude": 4868.6
+	},
+	{
+		"millis": 11885,
+		"latitude": 47.985549,
+		"longitude": 9.447697,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 25.21,
+		"altitude": 4822
+	},
+	{
+		"millis": 11890,
+		"latitude": 47.985076,
+		"longitude": 9.448546,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 32.65,
+		"altitude": 4775.8
+	},
+	{
+		"millis": 11900,
+		"latitude": 47.984619,
+		"longitude": 9.449411,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 42.61,
+		"altitude": 4730.4
+	},
+	{
+		"millis": 11905,
+		"latitude": 47.98418,
+		"longitude": 9.450178,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 41.84,
+		"altitude": 4685.5
+	},
+	{
+		"millis": 11910,
+		"latitude": 47.983692,
+		"longitude": 9.450939,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 47.37,
+		"altitude": 4640.1
+	},
+	{
+		"millis": 11915,
+		"latitude": 47.983238,
+		"longitude": 9.451642,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 54.06,
+		"altitude": 4594.4
+	},
+	{
+		"millis": 11920,
+		"latitude": 47.982799,
+		"longitude": 9.452334,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 53.41,
+		"altitude": 4549.4
+	},
+	{
+		"millis": 11930,
+		"latitude": 47.982402,
+		"longitude": 9.453022,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 48.84,
+		"altitude": 4503.6
+	},
+	{
+		"millis": 11935,
+		"latitude": 47.981964,
+		"longitude": 9.453627,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 63.62,
+		"altitude": 4460.8
+	},
+	{
+		"millis": 11940,
+		"latitude": 47.98151,
+		"longitude": 9.454184,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 61.63,
+		"altitude": 4416.1
+	},
+	{
+		"millis": 11945,
+		"latitude": 47.981094,
+		"longitude": 9.454832,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 63.75,
+		"altitude": 4371
+	},
+	{
+		"millis": 11950,
+		"latitude": 47.980667,
+		"longitude": 9.455448,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 58.6,
+		"altitude": 4326.9
+	},
+	{
+		"millis": 11960,
+		"latitude": 47.980285,
+		"longitude": 9.45604,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 53.99,
+		"altitude": 4283
+	},
+	{
+		"millis": 11965,
+		"latitude": 47.979881,
+		"longitude": 9.456658,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 53.99,
+		"altitude": 4239.9
+	},
+	{
+		"millis": 11970,
+		"latitude": 47.9794,
+		"longitude": 9.457317,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 52.41,
+		"altitude": 4239.9
+	},
+	{
+		"millis": 11975,
+		"latitude": 47.979034,
+		"longitude": 9.457864,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 47.71,
+		"altitude": 4149.1
+	},
+	{
+		"millis": 11985,
+		"latitude": 47.978744,
+		"longitude": 9.458453,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 28.34,
+		"altitude": 4106.9
+	},
+	{
+		"millis": 11990,
+		"latitude": 47.978393,
+		"longitude": 9.459055,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 15.8,
+		"altitude": 4064.3
+	},
+	{
+		"millis": 11995,
+		"latitude": 47.978057,
+		"longitude": 9.459621,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 15.17,
+		"altitude": 4020.9
+	},
+	{
+		"millis": 12000,
+		"latitude": 47.977672,
+		"longitude": 9.460196,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 30.54,
+		"altitude": 3978.4
+	},
+	{
+		"millis": 12005,
+		"latitude": 47.977272,
+		"longitude": 9.460728,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 42.17,
+		"altitude": 3935.1
+	},
+	{
+		"millis": 12015,
+		"latitude": 47.976882,
+		"longitude": 9.461174,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 50.17,
+		"altitude": 3891.9
+	},
+	{
+		"millis": 12020,
+		"latitude": 47.976547,
+		"longitude": 9.461637,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 51.04,
+		"altitude": 3849.5
+	},
+	{
+		"millis": 12025,
+		"latitude": 47.976257,
+		"longitude": 9.462108,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 44.54,
+		"altitude": 3807.3
+	},
+	{
+		"millis": 12030,
+		"latitude": 47.975978,
+		"longitude": 9.46259,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 29.84,
+		"altitude": 3765.5
+	},
+	{
+		"millis": 12035,
+		"latitude": 47.975646,
+		"longitude": 9.463033,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 14.13,
+		"altitude": 3722.9
+	},
+	{
+		"millis": 12045,
+		"latitude": 47.975299,
+		"longitude": 9.463465,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 12.72,
+		"altitude": 3681.4
+	},
+	{
+		"millis": 12050,
+		"latitude": 47.974945,
+		"longitude": 9.463809,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 31.32,
+		"altitude": 3639.2
+	},
+	{
+		"millis": 12055,
+		"latitude": 47.974597,
+		"longitude": 9.464124,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 40.98,
+		"altitude": 3596.6
+	},
+	{
+		"millis": 12060,
+		"latitude": 47.974384,
+		"longitude": 9.464312,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 39.6,
+		"altitude": 3557
+	},
+	{
+		"millis": 12065,
+		"latitude": 47.974174,
+		"longitude": 9.464679,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 26.28,
+		"altitude": 3516.4
+	},
+	{
+		"millis": 12075,
+		"latitude": 47.973892,
+		"longitude": 9.465083,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 6.02,
+		"altitude": 3475.6
+	},
+	{
+		"millis": 12080,
+		"latitude": 47.97356,
+		"longitude": 9.46547,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.82,
+		"altitude": 3435.2
+	},
+	{
+		"millis": 12085,
+		"latitude": 47.973239,
+		"longitude": 9.465853,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.82,
+		"altitude": 3394
+	},
+	{
+		"millis": 12090,
+		"latitude": 47.972934,
+		"longitude": 9.466282,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 26.04,
+		"altitude": 3394
+	},
+	{
+		"millis": 12095,
+		"latitude": 47.972637,
+		"longitude": 9.466525,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 38,
+		"altitude": 3304.6
+	},
+	{
+		"millis": 12105,
+		"latitude": 47.9724,
+		"longitude": 9.466705,
+		"satellites": 9,
+		"hdop": 0.9,
+		"kmh": 35.17,
+		"altitude": 3264.2
+	},
+	{
+		"millis": 12110,
+		"latitude": 47.97227,
+		"longitude": 9.466901,
+		"satellites": 9,
+		"hdop": 1.2,
+		"kmh": 16.67,
+		"altitude": 3221.5
+	},
+	{
+		"millis": 12115,
+		"latitude": 47.972026,
+		"longitude": 9.467195,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 15.17,
+		"altitude": 3181
+	},
+	{
+		"millis": 12120,
+		"latitude": 47.971748,
+		"longitude": 9.467435,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 4.67,
+		"altitude": 3142.5
+	},
+	{
+		"millis": 12125,
+		"latitude": 47.9715,
+		"longitude": 9.467629,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.45,
+		"altitude": 3102.1
+	},
+	{
+		"millis": 12135,
+		"latitude": 47.971294,
+		"longitude": 9.467669,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 31.61,
+		"altitude": 3063.5
+	},
+	{
+		"millis": 12140,
+		"latitude": 47.971195,
+		"longitude": 9.467828,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 28.58,
+		"altitude": 3025.4
+	},
+	{
+		"millis": 12145,
+		"latitude": 47.971084,
+		"longitude": 9.468134,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.98,
+		"altitude": 2987.3
+	},
+	{
+		"millis": 12150,
+		"latitude": 47.970947,
+		"longitude": 9.468473,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 5.48,
+		"altitude": 2950.8
+	},
+	{
+		"millis": 12155,
+		"latitude": 47.970821,
+		"longitude": 9.468919,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 24.65,
+		"altitude": 2914.6
+	},
+	{
+		"millis": 12165,
+		"latitude": 47.970767,
+		"longitude": 9.469174,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 35.32,
+		"altitude": 2877.1
+	},
+	{
+		"millis": 12170,
+		"latitude": 47.970836,
+		"longitude": 9.469367,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 19.45,
+		"altitude": 2835.8
+	},
+	{
+		"millis": 12175,
+		"latitude": 47.970985,
+		"longitude": 9.469719,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 16.26,
+		"altitude": 2794.6
+	},
+	{
+		"millis": 12180,
+		"latitude": 47.971084,
+		"longitude": 9.470039,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 30.09,
+		"altitude": 2757.2
+	},
+	{
+		"millis": 12185,
+		"latitude": 47.971179,
+		"longitude": 9.470061,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 23.8,
+		"altitude": 2726.3
+	},
+	{
+		"millis": 12195,
+		"latitude": 47.971305,
+		"longitude": 9.470273,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 6.89,
+		"altitude": 2694.8
+	},
+	{
+		"millis": 12200,
+		"latitude": 47.971462,
+		"longitude": 9.470696,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 31.82,
+		"altitude": 2660.4
+	},
+	{
+		"millis": 12205,
+		"latitude": 47.971534,
+		"longitude": 9.470858,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 33.87,
+		"altitude": 2625
+	},
+	{
+		"millis": 12210,
+		"latitude": 47.971794,
+		"longitude": 9.471139,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 14.02,
+		"altitude": 2586
+	},
+	{
+		"millis": 12220,
+		"latitude": 47.971878,
+		"longitude": 9.471591,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.83,
+		"altitude": 2535.4
+	},
+	{
+		"millis": 12225,
+		"latitude": 47.971813,
+		"longitude": 9.47175,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 30.28,
+		"altitude": 2493.4
+	},
+	{
+		"millis": 12230,
+		"latitude": 47.971927,
+		"longitude": 9.471885,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.76,
+		"altitude": 2452.7
+	},
+	{
+		"millis": 12235,
+		"latitude": 47.971927,
+		"longitude": 9.472418,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 25.98,
+		"altitude": 2413.4
+	},
+	{
+		"millis": 12240,
+		"latitude": 47.971862,
+		"longitude": 9.472598,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 32.15,
+		"altitude": 2372.1
+	},
+	{
+		"millis": 12250,
+		"latitude": 47.971973,
+		"longitude": 9.473071,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 3.7,
+		"altitude": 2328.9
+	},
+	{
+		"millis": 12255,
+		"latitude": 47.971973,
+		"longitude": 9.473657,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 21.89,
+		"altitude": 2281.2
+	},
+	{
+		"millis": 12260,
+		"latitude": 47.971889,
+		"longitude": 9.474142,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 36.47,
+		"altitude": 2230
+	},
+	{
+		"millis": 12265,
+		"latitude": 47.971893,
+		"longitude": 9.474506,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 34.71,
+		"altitude": 2183.9
+	},
+	{
+		"millis": 12270,
+		"latitude": 47.971942,
+		"longitude": 9.474761,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 23.59,
+		"altitude": 2145.6
+	},
+	{
+		"millis": 12280,
+		"latitude": 47.972015,
+		"longitude": 9.475118,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 5.7,
+		"altitude": 2108.1
+	},
+	{
+		"millis": 12285,
+		"latitude": 47.972034,
+		"longitude": 9.475492,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.41,
+		"altitude": 2068.8
+	},
+	{
+		"millis": 12290,
+		"latitude": 47.971988,
+		"longitude": 9.475804,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 27.02,
+		"altitude": 2030.8
+	},
+	{
+		"millis": 12295,
+		"latitude": 47.971977,
+		"longitude": 9.475971,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 26.95,
+		"altitude": 1988.9
+	},
+	{
+		"millis": 12300,
+		"latitude": 47.972103,
+		"longitude": 9.475987,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.08,
+		"altitude": 1943.1
+	},
+	{
+		"millis": 12310,
+		"latitude": 47.972267,
+		"longitude": 9.476121,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.02,
+		"altitude": 1901.1
+	},
+	{
+		"millis": 12315,
+		"latitude": 47.972164,
+		"longitude": 9.47614,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 16.52,
+		"altitude": 1863.4
+	},
+	{
+		"millis": 12320,
+		"latitude": 47.972209,
+		"longitude": 9.47599,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.96,
+		"altitude": 1819.9
+	},
+	{
+		"millis": 12325,
+		"latitude": 47.972389,
+		"longitude": 9.475957,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 19.26,
+		"altitude": 1774
+	},
+	{
+		"millis": 12330,
+		"latitude": 47.972354,
+		"longitude": 9.476097,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 19.26,
+		"altitude": 1732.5
+	},
+	{
+		"millis": 12340,
+		"latitude": 47.972278,
+		"longitude": 9.476062,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.11,
+		"altitude": 1732.5
+	},
+	{
+		"millis": 12345,
+		"latitude": 47.972347,
+		"longitude": 9.475949,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.85,
+		"altitude": 1648.1
+	},
+	{
+		"millis": 12350,
+		"latitude": 47.972358,
+		"longitude": 9.476016,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.26,
+		"altitude": 1605.8
+	},
+	{
+		"millis": 12355,
+		"latitude": 47.97224,
+		"longitude": 9.476011,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 16.95,
+		"altitude": 1561.3
+	},
+	{
+		"millis": 12360,
+		"latitude": 47.972171,
+		"longitude": 9.475911,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.83,
+		"altitude": 1514
+	},
+	{
+		"millis": 12370,
+		"latitude": 47.972198,
+		"longitude": 9.475781,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 20.45,
+		"altitude": 1465.8
+	},
+	{
+		"millis": 12375,
+		"latitude": 47.972175,
+		"longitude": 9.475791,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 21.98,
+		"altitude": 1417.1
+	},
+	{
+		"millis": 12380,
+		"latitude": 47.971992,
+		"longitude": 9.475816,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 12.08,
+		"altitude": 1373.4
+	},
+	{
+		"millis": 12385,
+		"latitude": 47.971935,
+		"longitude": 9.475646,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 22.8,
+		"altitude": 1330.3
+	},
+	{
+		"millis": 12395,
+		"latitude": 47.971939,
+		"longitude": 9.475703,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 20.02,
+		"altitude": 1285.1
+	},
+	{
+		"millis": 12400,
+		"latitude": 47.97182,
+		"longitude": 9.475749,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 16.48,
+		"altitude": 1241.8
+	},
+	{
+		"millis": 12405,
+		"latitude": 47.971767,
+		"longitude": 9.475618,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 21.52,
+		"altitude": 1202.7
+	},
+	{
+		"millis": 12410,
+		"latitude": 47.971813,
+		"longitude": 9.47559,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 19.76,
+		"altitude": 1161
+	},
+	{
+		"millis": 12415,
+		"latitude": 47.971675,
+		"longitude": 9.475656,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.63,
+		"altitude": 1119.2
+	},
+	{
+		"millis": 12425,
+		"latitude": 47.971626,
+		"longitude": 9.475478,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.33,
+		"altitude": 1076.3
+	},
+	{
+		"millis": 12430,
+		"latitude": 47.971702,
+		"longitude": 9.475681,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 12.8,
+		"altitude": 1038.9
+	},
+	{
+		"millis": 12435,
+		"latitude": 47.97158,
+		"longitude": 9.475621,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.3,
+		"altitude": 1003.9
+	},
+	{
+		"millis": 12440,
+		"latitude": 47.971672,
+		"longitude": 9.475669,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 17.3,
+		"altitude": 968.3
+	},
+	{
+		"millis": 12445,
+		"latitude": 47.971622,
+		"longitude": 9.475789,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 14.61,
+		"altitude": 928.5
+	},
+	{
+		"millis": 12455,
+		"latitude": 47.971469,
+		"longitude": 9.475775,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 14.61,
+		"altitude": 888.8
+	},
+	{
+		"millis": 12460,
+		"latitude": 47.971427,
+		"longitude": 9.475715,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 21.41,
+		"altitude": 844.3
+	},
+	{
+		"millis": 12465,
+		"latitude": 47.971485,
+		"longitude": 9.475819,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.35,
+		"altitude": 808.7
+	},
+	{
+		"millis": 12470,
+		"latitude": 47.971412,
+		"longitude": 9.47592,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 12.19,
+		"altitude": 773.9
+	},
+	{
+		"millis": 12475,
+		"latitude": 47.971366,
+		"longitude": 9.475757,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 20.39,
+		"altitude": 738.6
+	},
+	{
+		"millis": 12485,
+		"latitude": 47.971347,
+		"longitude": 9.475988,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 13.89,
+		"altitude": 709.5
+	},
+	{
+		"millis": 12490,
+		"latitude": 47.971141,
+		"longitude": 9.475951,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 18.13,
+		"altitude": 687
+	},
+	{
+		"millis": 12495,
+		"latitude": 47.97121,
+		"longitude": 9.475984,
+		"satellites": 10,
+		"hdop": 0.8,
+		"kmh": 15.37,
+		"altitude": 662.7
+	}
+]
