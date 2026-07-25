@@ -77,13 +77,11 @@ export default function Cube({ point }) {
 	useEffect(() => {
 		if (!cubeRef.current || !point) return;
 
-		console.log("rotation update", point);
-
 		const pitch = THREE.MathUtils.degToRad(point.pitch ?? 0);
 		const roll = THREE.MathUtils.degToRad(point.roll ?? 0);
 
 		cubeRef.current.rotation.set(pitch, 0, roll);
 	}, [point?.pitch, point?.roll]);
 
-	return <div ref={containerRef} className="pt-24" />;
+	return <div ref={containerRef} />;
 }

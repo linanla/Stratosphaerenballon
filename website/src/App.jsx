@@ -3,6 +3,7 @@ import Timeline from "./components/timeline";
 import Globe from "./components/globe";
 import Data from "./components/data";
 import Cube from "./components/cube";
+import Temperature from "./components/temperature";
 
 export default function App() {
 	const [gpsData, setGpsData] = useState();
@@ -37,13 +38,23 @@ export default function App() {
 				index={index}
 				setIndex={setIndex}
 			/>
-			<div className="flex flex-col gap-4">
-				<div className="flex flex-row gap-4 h-128 pt-4">
-					<Globe gpsData={gpsData} index={index} />
-					<Cube
-						point={gyroData.find(
-							(element) => element.millis == index,
-						)}
+			<div className="flex flex-col gap-4 pt-28">
+				<div className="flex flex-row gap-4 flex-wrap w-full">
+					<div className="flex-1 min-w-0">
+						<Globe gpsData={gpsData} index={index} />
+					</div>
+					<div className="flex-none">
+						<Cube
+							point={gyroData.find(
+								(element) => element.millis == index,
+							)}
+						/>
+					</div>
+				</div>
+				<div>
+					<Temperature
+						index={index}
+						temperatureData={temperatureData}
 					/>
 				</div>
 				<div className="flex flex-row">

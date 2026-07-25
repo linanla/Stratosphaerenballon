@@ -19,16 +19,9 @@ export default function Globe({ index, gpsData }) {
 
 		viewerRef.current = viewer;
 
-		console.log("GPS data length:", gpsData.length);
-		console.log("First GPS point:", gpsData[0]);
-		console.log("Last GPS point:", gpsData[gpsData.length - 1]);
-
 		if (gpsData.length > 0) {
 			const segments = [];
 			let currentSegment = [];
-
-			let missingCount = 0;
-			let normalCount = 0;
 
 			for (let i = 0; i < gpsData.length; i++) {
 				const point = gpsData[i];
@@ -46,32 +39,12 @@ export default function Globe({ index, gpsData }) {
 
 					const timeDifference = nextPoint.millis - point.millis;
 
-					console.log(
-						`Point ${i}:`,
-						"current millis:",
-						point.millis,
-						"next millis:",
-						nextPoint.millis,
-						"difference:",
-						timeDifference,
-					);
-
 					if (timeDifference > 5) {
-						console.warn("Missing data detected!", {
-							from: point,
-							to: nextPoint,
-							gap: timeDifference,
-						});
-
-						missingCount++;
-
 						if (currentSegment.length > 1) {
 							segments.push({
 								positions: currentSegment,
 								missing: false,
 							});
-
-							normalCount++;
 						}
 
 						segments.push({
@@ -100,23 +73,9 @@ export default function Globe({ index, gpsData }) {
 					positions: currentSegment,
 					missing: false,
 				});
-
-				normalCount++;
 			}
 
-			console.log("Created segments:", segments.length);
-			console.log("Green segments:", normalCount);
-			console.log("Red segments:", missingCount);
-
-			segments.forEach((segment, index) => {
-				console.log(
-					"Drawing segment:",
-					index,
-					segment.missing ? "RED" : "GREEN",
-					"points:",
-					segment.positions.length,
-				);
-
+			segments.forEach((segment) => {
 				viewer.entities.add({
 					polyline: {
 						positions: segment.positions,
@@ -169,5 +128,5 @@ export default function Globe({ index, gpsData }) {
 		);
 	}, [index, gpsData]);
 
-	return <div ref={containerRef} className="pt-24 grow" />;
+	return <div ref={containerRef} className="h-100" />;
 }
