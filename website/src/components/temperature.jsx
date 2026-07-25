@@ -1,5 +1,3 @@
-import { Bubbles, House, MountainSnow, Refrigerator } from "lucide-react";
-
 export default function Temperature({ index, temperatureData }) {
 	const highestTemperature = Math.max(
 		...temperatureData.map((element) => element.temperatureRod),
@@ -7,16 +5,16 @@ export default function Temperature({ index, temperatureData }) {
 	const lowestTemperature = Math.min(
 		...temperatureData.map((element) => element.temperatureRod),
 	);
-
-	function getPosition(temperature) {
-		return (
-			((temperature - lowestTemperature) /
-				(highestTemperature - lowestTemperature)) *
-			100
-		);
+    
+    function getStyle() {
+		if (index < 1085) {
+			return "landed";
+		} else if (index > 12485) {
+			return "landed";
+		} else {
+			return "flying";
+		}
 	}
-
-	console.log(getPosition(-36));
 
 	return (
 		<div className="flex flex-col gap-4 items-center w-full">
@@ -47,7 +45,7 @@ export default function Temperature({ index, temperatureData }) {
 								Math.abs(b.millis - index),
 						)[0].temperatureRod
 					}
-					className="temperature-slider w-full"
+					className={`temperature-slider w-full ${getStyle()}`}
 				/>
 				<p className="text-lg text-white text-nowrap">
 					{highestTemperature} °C

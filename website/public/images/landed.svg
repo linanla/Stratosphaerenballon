@@ -11,7 +11,7 @@
    class="lucide lucide-satellite-icon lucide-satellite"
    version="1.1"
    id="svg5"
-   sodipodi:docname="satellite.svg"
+   sodipodi:docname="landed.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,36 +21,30 @@
      id="defs5" />
   <sodipodi:namedview
      id="namedview5"
-     pagecolor="#ffffff"
+     pagecolor="#686868"
      bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="16"
-     inkscape:cx="16.4375"
-     inkscape:cy="14.09375"
+     inkscape:deskcolor="#000000"
+     inkscape:zoom="32"
+     inkscape:cx="15.34375"
+     inkscape:cy="10.703125"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg5" />
-  <ellipse
-     style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
-     id="path6"
-     cy="7.375"
-     cx="11.9375"
-     rx="6.0625"
-     ry="5.875" />
   <rect
-     style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:2.0346;stroke-opacity:1"
      id="rect7"
-     width="5.4375"
-     height="5.1875"
-     x="9.3125"
-     y="17.1875" />
+     width="5.4029026"
+     height="5.4029026"
+     x="7.7825246"
+     y="-16.442688"
+     transform="rotate(100.8093)" />
   <rect
      style="fill:#ffffff"
      id="rect8"
@@ -58,12 +52,8 @@
      height="5.625"
      x="11.875"
      y="10.625" />
-  <rect
-     style="fill:#ffffff;stroke:#ffffff;stroke-opacity:1"
-     id="rect9"
-     width="0.125"
-     height="5"
-     x="11.875"
-     y="11.25"
-     ry="0.0625" />
+  <path
+     style="fill:#008000;stroke:#008000;stroke-opacity:1"
+     d="m 0,19.78125 c 0,0 3.28125,-4.375 9.875,-2.96875 6.59375,1.40625 7.625,3.28125 12.8125,2.9375 5.1875,-0.34375 3.71875,-1.625 3.71875,-1.625 L 25.875,27.53125 c 0,0 -26.90625,-0.78125 -27.0625,-0.84375 C -1.34375,26.625 0,19.78125 0,19.78125 Z"
+     id="path2" />
 </svg>
