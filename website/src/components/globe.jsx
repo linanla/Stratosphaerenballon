@@ -39,7 +39,7 @@ export default function Globe({ index, gpsData }) {
 
 					const timeDifference = nextPoint.millis - point.millis;
 
-					if (timeDifference > 5) {
+					if (timeDifference > 10) {
 						if (currentSegment.length > 1) {
 							segments.push({
 								positions: currentSegment,
