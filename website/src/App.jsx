@@ -32,14 +32,14 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="bg-gray-800 h-dvh overflow-y-auto overflow-x-hidden">
+		<div className="h-dvh overflow-y-auto overflow-x-hidden background">
 			<Timeline
 				max={gpsData[gpsData.length - 1].millis}
 				index={index}
 				setIndex={setIndex}
 			/>
-			<div className="flex flex-col gap-4 pt-28">
-				<div className="flex flex-row gap-4 flex-wrap w-full">
+			<div className="flex flex-col gap-4">
+				<div className="flex flex-row gap-4 flex-wrap w-full px-4">
 					<div className="flex-1 min-w-0">
 						<Globe gpsData={gpsData} index={index} />
 					</div>
@@ -51,12 +51,7 @@ export default function App() {
 						/>
 					</div>
 				</div>
-				<div>
-					<Temperature
-						index={index}
-						temperatureData={temperatureData}
-					/>
-				</div>
+				<Temperature index={index} temperatureData={temperatureData} />
 				<div className="flex flex-row">
 					<Data
 						index={index}

@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
 @layer components {
+	.background {
+		background-color: #0e1522;
+	}
+	.card {
+		background-color: #131c27;
+		border: 2px solid #1c2836;
+		padding: 16px;
+		border-radius: 16px;
+	}
 	.slider {
 		-webkit-appearance: none;
 		appearance: none;
@@ -29,8 +38,7 @@
 		height: 33px;
 		transform: rotate(30deg);
 		margin-top: 5px;
-		background: url("/images/flying.svg") center center / contain
-			no-repeat;
+		background: url("/images/flying.svg") center center / contain no-repeat;
 	}
 	.landed::-webkit-slider-thumb {
 		-webkit-appearance: none;
@@ -54,8 +62,7 @@
 		width: 33px;
 		height: 33px;
 		margin-top: 5px;
-		background: url("/images/landed.svg") center center / contain
-			no-repeat;
+		background: url("/images/landed.svg") center center / contain no-repeat;
 	}
 	.slider::-webkit-slider-runnable-track {
 		background: #b3afaf;

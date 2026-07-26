@@ -128,5 +128,10 @@ export default function Globe({ index, gpsData }) {
 		);
 	}, [index, gpsData]);
 
-	return <div ref={containerRef} className="h-100" />;
+	return (
+		<div
+			ref={containerRef}
+			className="h-100 rounded-2xl overflow-hidden border-[#1c2836] border-2"
+		/>
+	);
 }

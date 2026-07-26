@@ -12,18 +12,35 @@ export default function Cube({ point }) {
 
 		const scene = new THREE.Scene();
 
-		const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+		const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
 
-		camera.position.set(3, 3, 5);
+		camera.position.set(2, 3, 5);
 		camera.lookAt(0, 0, 0);
 
 		const renderer = new THREE.WebGLRenderer({
 			antialias: true,
 		});
 
-		renderer.setSize(400, 400);
+		renderer.setPixelRatio(window.devicePixelRatio);
 
 		containerRef.current.appendChild(renderer.domElement);
+
+		function resizeRenderer() {
+			const width = containerRef.current.clientWidth;
+			const height = containerRef.current.clientHeight;
+
+			if (width === 0 || height === 0) return;
+
+			renderer.setSize(width, height, false);
+
+			camera.aspect = width / height;
+			camera.updateProjectionMatrix();
+		}
+
+		resizeRenderer();
+
+		const resizeObserver = new ResizeObserver(resizeRenderer);
+		resizeObserver.observe(containerRef.current);
 
 		const geometry = new THREE.BoxGeometry();
 
@@ -60,6 +77,8 @@ export default function Cube({ point }) {
 		return () => {
 			cancelAnimationFrame(animationId);
 
+			resizeObserver.disconnect();
+
 			renderer.dispose();
 			geometry.dispose();
 
@@ -83,5 +102,10 @@ export default function Cube({ point }) {
 		cubeRef.current.rotation.set(pitch, 0, roll);
 	}, [point?.pitch, point?.roll]);
 
-	return <div ref={containerRef} />;
+	return (
+		<div
+			ref={containerRef}
+			className="w-[400px] h-[400px] max-w-full rounded-2xl overflow-hidden border-[#1c2836] border-2"
+		/>
+	);
 }

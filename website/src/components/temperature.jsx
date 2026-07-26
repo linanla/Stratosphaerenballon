@@ -17,39 +17,41 @@ export default function Temperature({ index, temperatureData }) {
 	}
 
 	return (
-		<div className="flex flex-col gap-4 items-center w-full">
-			<p className="text-lg text-white text-nowrap">
-				Außentemperatur:{" "}
-				{temperatureData
-					.sort(
-						(a, b) =>
-							Math.abs(a.millis - index) -
-							Math.abs(b.millis - index),
-					)[0]
-					.temperatureRod.toFixed(2)}{" "}
-				°C
-			</p>
-			<div className="flex flex-row gap-4 items-center px-4 w-full">
+		<div className="px-4">
+			<div className="flex flex-col gap-4 items-center w-full grow card">
 				<p className="text-lg text-white text-nowrap">
-					{lowestTemperature} °C
-				</p>
-				<input
-					type="range"
-					min={lowestTemperature}
-					max={highestTemperature}
-					step={1}
-					value={
-						temperatureData.sort(
+					Außentemperatur:{" "}
+					{temperatureData
+						.sort(
 							(a, b) =>
 								Math.abs(a.millis - index) -
 								Math.abs(b.millis - index),
-						)[0].temperatureRod
-					}
-					className={`temperature-slider w-full ${getStyle()}`}
-				/>
-				<p className="text-lg text-white text-nowrap">
-					{highestTemperature} °C
+						)[0]
+						.temperatureRod.toFixed(2)}{" "}
+					°C
 				</p>
+				<div className="flex flex-row gap-4 items-center px-4 w-full">
+					<p className="text-lg text-blue-700 text-nowrap">
+						{lowestTemperature} °C
+					</p>
+					<input
+						type="range"
+						min={lowestTemperature}
+						max={highestTemperature}
+						step={1}
+						value={
+							temperatureData.sort(
+								(a, b) =>
+									Math.abs(a.millis - index) -
+									Math.abs(b.millis - index),
+							)[0].temperatureRod
+						}
+						className={`temperature-slider w-full ${getStyle()}`}
+					/>
+					<p className="text-lg text-red-700 text-nowrap">
+						{highestTemperature} °C
+					</p>
+				</div>
 			</div>
 		</div>
 	);
