@@ -32,7 +32,7 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="min-h-dvh overflow-y-auto overflow-x-hidden background">
+		<div className="h-dvh overflow-y-auto overflow-x-hidden background">
 			<Timeline
 				max={gpsData[gpsData.length - 1].millis}
 				index={index}
