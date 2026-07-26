@@ -36,14 +36,6 @@ export default function Data({ index, gpsData, gyroData, temperatureData }) {
 			<div className="card flex-1">
 				<div>
 					<p className="text-gray-400 text-[22px]">
-						Außentemperatur:{" "}
-					</p>
-					<p className="pl-4 pb-2">
-						{temperaturePoint?.temperatureRod ?? "-"} °C
-					</p>
-				</div>
-				<div>
-					<p className="text-gray-400 text-[22px]">
 						Innentemperatur:{" "}
 					</p>
 					<p className="pl-4 pb-2">
