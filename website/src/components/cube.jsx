@@ -14,14 +14,20 @@ export default function Cube({ point }) {
 
 		const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
 
-		camera.position.set(2, 3, 5);
+		camera.position.set(2, 2, 4);
 		camera.lookAt(0, 0, 0);
 
 		const renderer = new THREE.WebGLRenderer({
 			antialias: true,
+			alpha: true,
 		});
 
 		renderer.setPixelRatio(window.devicePixelRatio);
+
+		// Make canvas fill the container
+		renderer.domElement.style.width = "100%";
+		renderer.domElement.style.height = "100%";
+		renderer.domElement.style.display = "block";
 
 		containerRef.current.appendChild(renderer.domElement);
 
@@ -29,7 +35,7 @@ export default function Cube({ point }) {
 			const width = containerRef.current.clientWidth;
 			const height = containerRef.current.clientHeight;
 
-			if (width === 0 || height === 0) return;
+			if (!width || !height) return;
 
 			renderer.setSize(width, height, false);
 
@@ -82,7 +88,9 @@ export default function Cube({ point }) {
 			renderer.dispose();
 			geometry.dispose();
 
-			materials.forEach((material) => material.dispose());
+			materials.forEach((material) => {
+				material.dispose();
+			});
 
 			if (containerRef.current?.contains(renderer.domElement)) {
 				containerRef.current.removeChild(renderer.domElement);
@@ -105,7 +113,15 @@ export default function Cube({ point }) {
 	return (
 		<div
 			ref={containerRef}
-			className="w-[400px] h-[400px] max-w-full rounded-2xl overflow-hidden border-[#1c2836] border-2"
+			className="
+				relative
+				w-full
+				aspect-square
+				rounded-2xl
+				overflow-hidden
+				border-[#1c2836]
+				border-2
+			"
 		/>
 	);
 }

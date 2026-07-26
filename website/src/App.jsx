@@ -32,18 +32,20 @@ export default function App() {
 		return <div></div>;
 	}
 	return (
-		<div className="h-dvh overflow-y-auto overflow-x-hidden background">
+		<div className="min-h-dvh overflow-y-auto overflow-x-hidden background">
 			<Timeline
 				max={gpsData[gpsData.length - 1].millis}
 				index={index}
 				setIndex={setIndex}
 			/>
-			<div className="flex flex-col gap-4">
-				<div className="flex flex-row gap-4 flex-wrap w-full px-4">
-					<div className="flex-1 min-w-0">
+
+			<div className="flex flex-col gap-4 p-4">
+				<div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-4">
+					<div className="min-w-0">
 						<Globe gpsData={gpsData} index={index} />
 					</div>
-					<div className="flex-none">
+
+					<div className="min-w-0">
 						<Cube
 							point={gyroData.find(
 								(element) => element.millis == index,
@@ -51,15 +53,15 @@ export default function App() {
 						/>
 					</div>
 				</div>
+
 				<Temperature index={index} temperatureData={temperatureData} />
-				<div className="flex flex-row">
-					<Data
-						index={index}
-						gpsData={gpsData}
-						gyroData={gyroData}
-						temperatureData={temperatureData}
-					/>
-				</div>
+
+				<Data
+					index={index}
+					gpsData={gpsData}
+					gyroData={gyroData}
+					temperatureData={temperatureData}
+				/>
 			</div>
 		</div>
 	);
