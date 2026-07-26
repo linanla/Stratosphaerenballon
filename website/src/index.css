@@ -56,6 +56,26 @@
 
 		box-shadow: none;
 	}
+	.temperature-marker {
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%) rotate(30deg);
+
+		width: 33px;
+		height: 33px;
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.flying-temp {
+		background-image: url("/images/flying.svg");
+	}
+
+	.landed-temp {
+		background-image: url("/images/landed.svg");
+	}
 	.landed::-moz-range-thumb {
 		-webkit-appearance: none;
 		appearance: none;
@@ -76,11 +96,7 @@
 		border-radius: 9999px;
 		height: 40px;
 	}
-	.temperature-slider {
-		-webkit-appearance: none;
-		appearance: none;
-	}
-	.temperature-slider::-webkit-slider-runnable-track {
+	.temperature-bar {
 		background: #0000ff;
 		background: linear-gradient(
 			90deg,
@@ -89,5 +105,6 @@
 		);
 		border-radius: 9999px;
 		height: 40px;
+		width: 100%;
 	}
 }
