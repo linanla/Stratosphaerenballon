@@ -6,7 +6,7 @@ export default function Data({ index, gpsData, gyroData, temperatureData }) {
 	);
 
 	return (
-		<div className="text-white flex flex-row px-4 pb-4 justify-start text-2xl flex-wrap gap-4 w-full">
+		<div className="text-white flex flex-row justify-start text-2xl flex-wrap gap-4 w-full">
 			<div className="card flex-1">
 				<div>
 					<p className="text-gray-400 text-[22px]">Höhe: </p>

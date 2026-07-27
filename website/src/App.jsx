@@ -39,7 +39,7 @@ export default function App() {
 				setIndex={setIndex}
 			/>
 
-			<div className="flex flex-col gap-4 p-4">
+			<div className="flex flex-col gap-4 p-8">
 				<div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-4">
 					<div className="min-w-0">
 						<Globe gpsData={gpsData} index={index} />
